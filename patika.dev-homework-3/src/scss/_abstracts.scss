@@ -1,0 +1,47 @@
+/* fonts*/ 
+
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@500&family=Open+Sans:wght@300&display=swap'); 
+
+/* variable*/
+
+$primary-font: 'Changa', sans-serif;
+$secondary-font:'Open Sans', sans-serif;
+
+$primary-color:#E51515;
+$secondary-color: #14151A;
+
+$date-color:#FFB320;
+$comment-color:#08ABBD;
+$gray-color:#9F9F9F;
+$light-color:#fefefe;
+
+/*Utılıtıs clas  tek bır ıslevı olan claslar  html kodunda cagırılyor */ 
+
+.bg{
+    &-dark{
+        background-color:$secondary-color;
+    }
+    &-light{
+        background-color: $light-color;
+    }
+}
+
+
+.ml{// margın leftler ıcın 
+
+    &-2{
+        margin-left :2rem; ;
+    }
+}
+
+/* Mixins*/
+
+@mixin flex-display ($display,$align-items,$justify-content) {
+
+    display: $display; 
+    align-items: $align-items;
+    justify-content: $justify-content;
+    
+}
+
+

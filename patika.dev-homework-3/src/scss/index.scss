@@ -1,0 +1,19 @@
+@import "abstracts";
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: $secondary-font;
+    color: $gray-color;
+    background-color: $light-color;
+}

@@ -1,0 +1,65 @@
+.header {
+  border-bottom: red;
+  
+  margin-bottom: 3rem;
+  background: #000;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.logo {
+  width: 128px;
+
+  img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+  }
+  &:hover {
+    cursor: pointer;
+  }
+}
+.profil {
+  
+  img {
+
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin-top: 1rem;
+  }
+  &:hover {
+    cursor: pointer;
+  }
+}
+.search-bar {
+  width: 40%;
+  position: relative;
+  .search-input {
+    padding: 0.7rem;
+    padding-left: 40px;
+    border-radius: 1rem;
+    width: 100%;
+    &:focus {
+      outline: 0;
+    }
+  }
+  .search-icon {
+   
+    position: absolute;
+    top: 5px;
+    left: 5px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .profil,
+  .logo {
+    display: none;
+  }
+  .search-bar {
+    margin-left: 10%;
+  }
+}

@@ -8,6 +8,6 @@ In the project directory, you can run:
 
 
 <p align="center">
-  <img src="./../homework-3.jpeg" width="350" title="hover text">
+  <img src="./../homework-3.jpeg" width="600" title="hover text">
           
 </p>
